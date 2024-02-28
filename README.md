@@ -66,3 +66,6 @@ This project is licensed under the [MIT License](https://github.com/MichaelDecen
 
 ## Authors
 - **Michael Nwogha** <[MichaelDecent](https://github.com/MichaelDecent)>
+- **Emmanuel Yeboah Manu** <[Stemmanuel95](https://github.com/Stemmanuel95)>
+- **Forster Asamany** <[fasamany1](https://github.com/fasamany1)>
+- **Idris Yakub** <[driiisdev](https://github.com/driiisdev)>
