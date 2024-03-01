@@ -166,7 +166,7 @@
                 </div>
             </div>
             <div class="hidden lg:block">
-                <Cart :currentPath="currentPath"/>
+                <Cart :currentPath="currentPath" :user="currentUser"/>
             </div>
         </div>
         <section class="bg-white py-12 text-gray-700 sm:py-16 lg:py-20">
