@@ -5,9 +5,8 @@
     
 
     const router = useRouter();
-    const {currentPath, user} = defineProps(['currentPath', 'user'])
-    
-    console.log(currentPath, user)
+    const {currentPath} = defineProps(['currentPath'])
+    console.log(currentPath)
 
     const cartItems = ref([])
     const customerId = ref("")
@@ -71,7 +70,7 @@
             const orderData = {
                 items: cartItems.value,
                 total_amount: total_amount.value,
-                customer: user,
+                customer: currentUser.value,
             }
             const response = await axios.post(`${baseUrl.value}${currentPath}/orders`, orderData);
             alert("Order Sent Successfully")
